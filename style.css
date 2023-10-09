@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    max-width: 90vw;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+}
+
+.topleft {
+    width: 50%;
+    height: 50vh;
+}
+
+.topright {
+    width: 50%;
+    height: 50vh;
+    /* background-color: red; */
+}
+
+.section1 {
+}
+
+.logo {
+    font-size: 1.9rem;
+}
